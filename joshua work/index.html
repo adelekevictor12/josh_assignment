@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display:flexbox;
+            margin-top: 5%;
+            margin-left: 30%;
+            background-image: url(image/download.jpg);
+            background-repeat:no-repeat;
+            background-size:135vmax;
+            
+        }
+        header{
+            width: 70%;
+            display:flex;
+            /*background-color: white;*/
+            border-radius: 30%;
+            /*border: 1px solid white;*/
+        }
+     
+        .name{
+            padding-top: 8%;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color:rgb(94, 94, 196);
+            
+        }
+        main {
+            margin-top: 5%;
+        } 
+        
+        .login{
+            width: 50%;
+            
+            padding-top: 8px;
+
+            /*margin-left: ;*/
+
+            opacity: 0.988;
+            
+            background-color: rgb(238, 238, 238);
+            padding-left:15px ;
+            padding-bottom: 15px;
+        }
+        .name-tag{
+            margin-right: 10px;
+            padding: 20px 10px;
+            border-radius: 25px;
+            background-color: darkgray;
+            font-size: 18px;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .user_icon{
+            width: 40px;
+            height: 40px;
+        }
+        .user{
+            display:flex;
+           padding-bottom: 15px;
+        }
+        .username{
+            font-size: 18px;
+            padding-top: 10px;
+            padding-left: 5px;
+        }
+        input{
+            width:300px;
+            margin-left: 8px;
+            height: 30px;
+            margin-bottom: 5px;
+
+        }
+        .pass_icon {
+            width:70px;
+            height:40px;
+        }
+        .lock{
+            display: flex;
+            
+        }
+        .password{
+            padding-left: 0px;
+            margin-left: 0px;
+            padding-top: 10px;
+        }
+        button{
+            width: 90px;
+            height: 40px;
+            margin-right: 30px;
+            float: right;
+            background-color: rgb(143, 139, 139);
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <img class="logo" src="image/download-removebg-preview.png" alt="anchor-university-logo">
+        <div class="name">
+            
+             <h1>ANCHOR UNIVERSITY LAGOS</h1>
+             <h3>CHARACTER.COMPETENCE.COURAGE</h3>
+             
+             
+        </div>
+            
+    </header>
+    <main>
+        <div class="login" >
+            <form >
+                <p class="name-tag">Admin Login</p>
+                <div class="user">
+                    <img class="user_icon" src="image/username-removebg-preview.png" alt="user-icon" >
+                    <span class="username"> User Name</span>
+                </div>
+                <input type="text" "required">
+                <div class="lock">
+                    <img class="pass_icon" src="image/password-removebg-preview.png">
+                    <span class="password"> Password</span>
+                </div>
+                
+                <input type="password">
+                <br>
+                <button> Login</button>
+                <br>
+                <br>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
